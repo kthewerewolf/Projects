@@ -5,13 +5,19 @@
 <img src= "https://github.com/kthewerewolf/Projects/assets/157539771/429d2028-7524-4915-b8aa-294f057f054a"/>
 <br>
 <h2>Table of Contents</h2>
-<h5>About Me!</h5>
+<h6>About Me!</h6>
+<h6>HTML Practice Projects</h6>
 <h5>Wine Festival Schedule</h5>
   <h6>CSS Style Sheet</h6>
   <h6>html Index</h6>
 <h5>About Brown Bears</h5>  
 <h5>Fashion Blog</h5>
 <h5>'Form' a Story</h5>
+<h6>CSS Practice Projecs</h6>
+<h5>Broadway</h5>
+<h5>Healthy Recipes</h5>
+<h5>Olivia Woodruff Portfolio</h5>
+<h5>The Box Model - Davie's Burgers</h5>
 <br>
 <br>
 <section id="about me">
