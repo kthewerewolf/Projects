@@ -2,8 +2,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #211951;
+}
+
+.container-a {
     color: whitesmoke;
-    background-color: #36485E;
 }
 
 h1 {
@@ -12,23 +15,18 @@ h1 {
     word-spacing: normal;
     vertical-align: middle;
     height: 75px;
-    color: #9EFFA9;
-    background-color: #29252C;
+    color: #15F5BA;
+    background-color: #836FFF;
     text-transform: uppercase;
     position: relative;
     padding-top: 35px;
 }
 
 h2 {
-    color: #9EFFA9;
-    text-align: center;
+    color: #15F5BA;
 }
 
 h3 {
-    font-weight: 700;
-}
-
-h4 {
     text-align: center;
     text-decoration: underline;
 }
@@ -46,23 +44,64 @@ th,td {
 }
 
 th {
-    border-color: #9EFFA9;
+    border-color: #7E30E1;
     border-style: solid;
     border-width: 3px;
     font-weight: 800;
 }
 
 td {
-    border-color: #9EFFA9;
+    border-color: #7E30E1;
     border-style: solid;
     border-width: 1px;
 }
 
-.container {
+.container-1 {
     display: flex;
     flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;
+    justify-content: left; 
+    align-items: left; 
     position: relative;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: right 
+    align-items: right; 
+    position: relative;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: left; 
+    align-items: left; 
+    position: relative;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: left; 
+    align-items: left; 
+    position: relative;
+}    
+
+#html-ref {
+    font-weight: 700;
+    color: #836FFF;
+    background-color: #F0F3FF;
+    text-align: center;
+    height: 50px;
+    padding: 25px 20px;
+}
+
+#css-ref {
+    font-weight: 700;
+    color: #836FFF;
+    background-color: #F0F3FF;
+    text-align: center;
+    height: 50px;
+    padding: 25px 20px;
 }

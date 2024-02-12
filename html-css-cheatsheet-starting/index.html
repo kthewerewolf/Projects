@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML/CSS Cheat Sheet</title>
+        <title>WebDev Cheat Sheet</title>
         <link rel="icon" type="image/x-icon" href="./Resources/Kaid The Werewolf web icon.png">
         <link href="./styles.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
-        <h1 id="main-title">HTML/CSS Cheat Sheet</h1>
-        <nav>
+        <h1 id="main-title">Web Dev Cheat Sheet</h1>
+        <nav class="container-a">     
             <a href="#html-ref">HTML Reference</a>
             <a href="#css-ref">CSS Reference</a>
         </nav>
         <br>
     <section class="html">
         <h2 class="main-section-heading" id="html-ref">HTML Reference</h2>
-        <h3 class="sub-section-heading" id="html-tables">'Tables'</h3>
-        <h4 class="table-title" id="t-tags-table">Table Tags</h4>
-    <div class="container">    
+        <h2 class="sub-section-heading" id="html-tables">Tables</h2>
+        <p>Tables are containers for multi-demensional data (i.e. 2-d) content arranged in columns and rows.</p>
+        <br>
+        <h3 class="table-title" id="t-tags-table">Table Tags</h3>
+    <div class="container-1">    
             <table id="t-tags-table">
                 <thead>
                     <tr id="Header">
@@ -58,8 +60,10 @@
                     </tr>
                 </tbody>
             </table>
+    </div>
+    <div class="container-2">    
             <br>
-        <h4 class="table-title" id="t-attributes-table">Table Attributes</h4>
+        <h3 class="table-title" id="t-attributes-table">Table Attributes</h3>
             <table>
                 <thead>
                     <th>Attribute</th>
@@ -79,10 +83,15 @@
                     </tr>
                 </tbody>
             </table>
+    </div>        
             <br>
             <br>
-        <h3 class="sub-section-heading">Elements</h3>    
-        <h4 class="table-title"id="attributes-table">Attributes</h4>   
+      
+            <h2 class="sub-section-heading">Elements</h2>  
+            <p>Elements are the term used for the combination of opening tag + content + closing tag.</p>
+            <br>  
+    <div class="container-3">      
+            <h3 class="table-title"id="attributes-table">Attributes</h3>   
             <table>
                 <thead>
                     <th>Attribute</th>
@@ -150,20 +159,99 @@
             <p id="favicon-instructions">A favicon image is displayed to the left of the page title in the browser tab. To ad a Favicon follow the steps below:</p>
             <ol>
                 <li>Either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder (A common name for a favicon image is "favicon.ico").</li>
+                <br>
                 <li>Add a <em>link</em> element to your "index.html" file, after the <em>title</em> element, like this:</li>
+                <br>    
                     <ul>
                         <li>< title >My Page Title< /title >
                             <br>
                             < link rel="icon" type="image/x-icon" href="/images/favicon.ico" ></li>
                     </ul>
-                <li>Save the "index.html" file and reload it in your browser. Your browser tab should now display your favicon image to the left of the page title.</li>
+                <br>
+                    <li>Save the "index.html" file and reload it in your browser. Your browser tab should now display your favicon image to the left of the page title.</li>
             </ol>
     </section> 
     <br>
     <br>
     <section class="css">
         <h2 id="css-ref">CSS Reference</h2>
-
+        <br>
+        <br>
+    <div class="container-4">   
+        <h2>Basic Selectors</h2>
+        <p>Selectors are used to <em>select</em> elements by their tag name, id attribute, classes, attributes themselves, and by hierarchy.</p>
+        <br>
+        <table>
+                <thead>
+                    <th>Selector</th>
+                    <th>Description</th>
+                    <th>Code Example</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Type Selector</td>
+                        <td>Selects all elements that match the specified type or element name.
+                        <br>
+                        <br>
+                        Can selector multiple elements by separating them with a comma ( , ).    
+                        </td>
+                        <td>input {
+                            <br>color: green;
+                            <br>}
+                            <br>
+                            <br>h1, h2 {
+                                <br>color: green;
+                                <br>}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Class Selector</td>
+                        <td>Selects elements based on the value of their 'class' attribute.
+                            <br>
+                            <br>
+                            Can also be used to select more specific elements by adding the element name then the class value, this will select all elements that contain the corresponding class value.
+                        </td>
+                        <td>.valid {
+                            <br>color: green;
+                            <br>}
+                            <br>
+                            <br>a.valid {
+                                <br>color: green;
+                                <br>}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ID Selector</td>
+                        <td>Selects all elements with the same id attribute value.</td>
+                        <td>#start {
+                            <br>color: green;
+                            <br>}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Universal Selector</td>
+                        <td>Selects ALL elements.</td>
+                        <td>* {
+                            <br>color: green;
+                            <br>}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Attribute Selector</td>
+                        <td>Selects elements based on the value of ONE of their attributes. In this context the following applies:
+                            <br><ul>
+                                    <li>[attribute]: The attribute occurs in the respective element.</li>
+                                    <li>[attribute=value]: The attribute occurs AND has the exact specified value.</li>
+                                </ul>
+                        </td>
+                        <td>[type="text"] {
+                            <br>color: green;
+                            <br>}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>    
 
 
 
