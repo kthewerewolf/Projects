@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML Cheat Sheet</title>
-        <link href="./styles.css" type="text/css" rel="style-sheet"/>
+        <title>HTML/CSS Cheat Sheet</title>
+        <link rel="icon" type="image/x-icon" href="./Resources/Kaid The Werewolf web icon.png">
+        <link href="./styles.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
-        <h1 id="main-title">HTML Cheat Sheet</h1>
+        <h1 id="main-title">HTML/CSS Cheat Sheet</h1>
+        <nav>
+            <a href="#html-ref">HTML Reference</a>
+            <a href="#css-ref">CSS Reference</a>
+        </nav>
         <br>
     <section class="html">
-        <h2 class="main-section-heading">HTML Reference</h2>
+        <h2 class="main-section-heading" id="html-ref">HTML Reference</h2>
         <h3 class="sub-section-heading" id="html-tables">'Tables'</h3>
         <h4 class="table-title" id="t-tags-table">Table Tags</h4>
-            <table>
+            <table id="t-tags-table">
                 <thead>
-                    <tr>
+                    <tr id="Header">
                         <th>Tag</th>
                         <th>Name</th>
                         <th>Description</th>
@@ -75,6 +80,7 @@
             </table>
             <br>
             <br>
+        <h3 class="sub-section-heading">Elements</h3>    
         <h4 class="table-title"id="attributes-table">Attributes</h4>   
             <table>
                 <thead>
@@ -131,13 +137,15 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="3"><em><strong>Recommendations:</strong> Always use lowercase attribute names; W3C recommends double quotations("") around attribute values.</em></td>
+                        <td colspan="3"><em><strong>Recommendations:</strong> Always use lowercase attribute names; W3C recommends double quotations ("...") around attribute values.</em></td>
                     </tr>
                 </tfoot>
             </table>
-        <h4 id="flavor">"Flavor" Tags</h4>    
-            <h5>Favicon</h5>
-            <p>A favicon image is displayed to the left of the page title in the browser tab. To ad a Favicon follow the steps below:</p>
+            <br>
+            <br>
+        <h3 class="sub-section-heading"id="flavor">"Flavor" Tags</h3>    
+            <h4>Favicon</h4>
+            <p id="favicon-instructions">A favicon image is displayed to the left of the page title in the browser tab. To ad a Favicon follow the steps below:</p>
             <ol>
                 <li>Either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder (A common name for a favicon image is "favicon.ico").</li>
                 <li>Add a <em>link</em> element to your "index.html" file, after the <em>title</em> element, like this:</li>
@@ -149,6 +157,19 @@
                 <li>Save the "index.html" file and reload it in your browser. Your browser tab should now display your favicon image to the left of the page title.</li>
             </ol>
     </section> 
+    <br>
+    <br>
+    <section class="css">
+        <h2 id="css-ref">CSS Reference</h2>
+
+
+
+
+
+
+
+
+    </section>
     </body>    
     <footer>
         <!--   banner here   -->

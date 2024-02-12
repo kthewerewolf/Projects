@@ -1,15 +1,59 @@
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
+    color: whitesmoke;
+    background-color: #36485E;
 }
 
-#main-title {
+h1 {
+    font-style: bold;
     text-align: center;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/622/344/original/beautiful-background-of-lines-with-gradients-vector.jpg");
+    word-spacing: normal;
+    vertical-align: middle;
+    height: 100px;
+    color: #9EFFA9;
+    background-color: #29252C;
     text-transform: uppercase;
+    position: relative;
+    padding-top: 50px;
 }
 
-.main-section-heading {
-    
+h2 {
+    color: #9EFFA9;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+table {
+    border: whitesmoke;
+    border-style: solid;
+    border-spacing: 5px;
+    align-items: center;
+    padding: 0, auto;
+}
+
+th,td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    border-color: #9EFFA9;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: 800;
+}
+
+td {
+    border-color: #9EFFA9;
+    border-style: solid;
+    border-width: 1px;
 }
