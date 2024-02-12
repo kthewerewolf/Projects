@@ -11,12 +11,12 @@ h1 {
     text-align: center;
     word-spacing: normal;
     vertical-align: middle;
-    height: 100px;
+    height: 75px;
     color: #9EFFA9;
     background-color: #29252C;
     text-transform: uppercase;
     position: relative;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 h2 {
@@ -56,4 +56,13 @@ td {
     border-color: #9EFFA9;
     border-style: solid;
     border-width: 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    position: relative;
 }
