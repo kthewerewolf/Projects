@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+        <link href="./styles.css" type="text/css" rel="style-sheet"/>
+    </head>
+    <body>
+        <h1 id="main-title">HTML Cheat Sheet</h1>
+        <br>
+    <section class="html">
+        <h2 class="main-section-heading">HTML Reference</h2>
+        <h3 class="sub-section-heading" id="html-tables">'Tables'</h3>
+        <h4 class="table-title" id="t-tags-table">Table Tags</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>< table ></td>
+                        <td>Table</td>
+                        <td>Wrapper element for all HTML tables</td>
+                    </tr>
+                    <tr>
+                        <td>< thead ></td>
+                        <td>Table Header</td>
+                        <td>Contains information for the table heading columns and cell content.</td>
+                    </tr>
+                    <tr>
+                        <td>< tbody ></td>
+                        <td>Table Body</td>
+                        <td>Contains all the rows and columns for the body of the table.</td>
+                    </tr>
+                    <tr>
+                        <td>< tr ></td>
+                        <td>Table Row</td>
+                        <td>Contains all table data for a single row of content in the table.</td>
+                    </tr>
+                    <tr>
+                        <td>< td ></td>
+                        <td>Table Data</td>
+                        <td>Contains all data for individual cells in a table row.</td>
+                    </tr>
+                    <tr>
+                        <td>< tfoot ></td>
+                        <td>Table Footer</td>
+                        <td>Contains and identifies the footer of the table</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        <h4 class="table-title" id="t-attributes-table">Table Attributes</h4>
+            <table>
+                <thead>
+                    <th>Attribute</th>
+                    <th>Name</th>
+                    <th>Function</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>colspan</td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a <em>td</em> element should span across.</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan</td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a <em>td</em> element should span across.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+        <h4 class="table-title"id="attributes-table">Attributes</h4>   
+            <table>
+                <thead>
+                    <th>Attribute</th>
+                    <th>Recommended Usage</th>
+                    <th>Function</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>'class'</td>
+                        <td>General Indentification</td>
+                        <td>Identifies multiple elements to make it easier to style groups of elements in CSS.</td>
+                    </tr>
+                    <tr>
+                        <td>'id'</td>
+                        <td>Specific Identification</td>
+                        <td>Uniquely indentifies element for more precise identification when styling.</td>
+                    </tr>
+                    <tr>
+                        <td>'href'</td>
+                        <td>Links</td>
+                        <td>Specifies an internal or external link to resources.</td>
+                    </tr>
+                    <tr>
+                        <td>'src'</td>
+                        <td>Images</td>
+                        <td>Specifies the path to an image (used inside the <em>< img ></em> element)</td>
+                    </tr>
+                    <tr>
+                        <td>'width' and 'height'</td>
+                        <td>Images</td>
+                        <td>Specifies the width and height of an image (in pixels)</td>
+                    </tr>
+                    <tr>
+                        <td>'alt'</td>
+                        <td>Images</td>
+                        <td>Specifies alternate text for an image</td>
+                    </tr>
+                    <tr>
+                        <td>'style'</td>
+                        <td>Inline Styling</td>
+                        <td>Used to specify CSS styling inside the html document. (not recommended)</td>
+                    </tr>
+                    <tr>
+                        <td>'lang'</td>
+                        <td>Language Indentification (inside <em>html</em> tag)</td>
+                        <td>Declares language of the webpage</td>
+                    </tr>
+                    <tr>
+                        <td>'title'</td>
+                        <td>Extra Information</td>
+                        <td>Defines additional information about an element (displayed as a tooltip when mousing over the element).</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><em><strong>Recommendations:</strong> Always use lowercase attribute names; W3C recommends double quotations("") around attribute values.</em></td>
+                    </tr>
+                </tfoot>
+            </table>
+        <h4 id="flavor">"Flavor" Tags</h4>    
+            <h5>Favicon</h5>
+            <p>A favicon image is displayed to the left of the page title in the browser tab. To ad a Favicon follow the steps below:</p>
+            <ol>
+                <li>Either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder (A common name for a favicon image is "favicon.ico").</li>
+                <li>Add a <em>link</em> element to your "index.html" file, after the <em>title</em> element, like this:</li>
+                    <ul>
+                        <li>< title >My Page Title< /title >
+                            <br>
+                            < link rel="icon" type="image/x-icon" href="/images/favicon.ico" ></li>
+                    </ul>
+                <li>Save the "index.html" file and reload it in your browser. Your browser tab should now display your favicon image to the left of the page title.</li>
+            </ol>
+    </section> 
+    </body>    
+    <footer>
+        <!--   banner here   -->
+    </footer>
+</html>
