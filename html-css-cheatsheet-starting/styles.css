@@ -2,12 +2,34 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
+    color: whitesmoke;
     background-color: #211951;
 }
 
-.container-a {
-    color: whitesmoke;
+nav {
+    display: inline;
 }
+
+.html-link {
+    color: #F0F3FF;
+    background-color: ;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.css-link {
+    color: #F0F3FF;
+    background-color: ;
+    text-decoration: none;
+    padding: 10px
+}
+
+.js-link {
+    color: #F0F3FF;
+    background-color: ;
+    text-decoration: none;
+    padding: 10px
+}    
 
 h1 {
     font-style: bold;
